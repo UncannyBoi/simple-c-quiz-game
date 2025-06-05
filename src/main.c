@@ -1,6 +1,6 @@
 /***C Programming Quiz Game***/
 
-#include "main.h"
+#include "include/main.h"
 
 
 #define ITL     "\e[3m"
