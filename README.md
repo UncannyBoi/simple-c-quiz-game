@@ -15,6 +15,7 @@ the questions are hardcoded and not flexible at all!
 
 Features I want to add soon:
 
-1. Flexible question and answers creation
-2. GUI version of the game
-3. Automated Building of an executable
+1. Flexible function def using a different file
+2. Flexible question and answers creation
+3. GUI version of the game
+4. Automated Building of an executable
