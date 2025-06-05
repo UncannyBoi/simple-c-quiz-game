@@ -1,11 +1,7 @@
 /***C Programming Quiz Game***/
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-#include <string.h>
-#include <math.h>
-#include <ctype.h>
+#include "main.h"
+
 
 #define ITL     "\e[3m"
 #define RED     "\e[31m"
