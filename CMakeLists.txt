@@ -6,14 +6,14 @@ project(simple-c-quiz-game LANGUAGES C) # <--- Project name updated here!
 # # ... (your MATH variable setup) ...
 
 # # Create HEADER-ONLY library
-# add_library(HEADER-ONLY INTERFACE)
+ add_library(HEADER-ONLY INTERFACE)
 # # ... (HEADER-ONLY include directories and link libraries) ...
 
 # # Add the 'src' subdirectory.
-# add_subdirectory(src) 
+ add_subdirectory(src) 
 
 # # Define your executable target.
-# add_executable(simple-c-quiz-game src/main.c) # <--- Executable name likely updated too for consistency
+ add_executable(simple-c-quiz-game src/main.c) # <--- Executable name likely updated too for consistency
 
 # # Link your HEADER-ONLY library to the executable.
-# target_link_libraries(simple-c-quiz-game PRIVATE HEADER-ONLY) # <--- Link to the new executable name
+ target_link_libraries(simple-c-quiz-game PRIVATE HEADER-ONLY) # <--- Link to the new executable name
