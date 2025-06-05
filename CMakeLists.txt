@@ -1,9 +1,6 @@
 cmake_minimum_required(VERSION 3.00)
 project(Cgame LANGUAGES C)
 
-# Find math and pthread library
-find_library(MATH m REQUIRED)
-
 # Create HEADER-ONLY library
 add_library(HEADER-ONLY INTERFACE)
 # Add project lib
