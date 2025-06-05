@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.00)
+project(Cgame LANGUAGES C)
+
+# Create HEADER-ONLY library
+add_library(HEADER-ONLY INTERFACE)
+
+# Add directory "include/" to target library
+target_include_directories(HEADER-ONLY INTERFACE ${CMAKE_SOURCE_DIR}/include)
+# Add directory "lib/" to target library
+
+
+# Target link math to HEADER-ONLY
+target_link_libraries(HEADER-ONLY INTERFACE ${MATH})
+
+
+# Create a binary executable
+add_executable(Cgame main.c)
+# Link shared library to main
+target_link_libraries(Cgame  PRIVATE HEADER-ONLY)
